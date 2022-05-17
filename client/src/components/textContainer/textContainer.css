@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white; 
+  justify-content: space-between;
+  font-family: "Press Start 2P", cursive;
+  font-size: 10px;
+}
+ 
+
+.activeContainer { 
+  align-items: center;
+  height: 30em;
+  padding: 14px 0;
+  overflow-x: auto;
+  column-fill: auto;
+    -webkit-column-fill: auto;
+    -moz-column-fill: auto;
+    column-width: 150px;
+    -webkit-column-width: 150px;
+    -moz-column-width: 150px;
+
+}
+.activeContainer h2{
+  margin:0;
+}
+.activeContainer ul li + li {
+  margin-top: 10px;
+}
+.activeContainer ul{
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+.textContainer h1.header {
+  font-size: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
