@@ -12,7 +12,7 @@
 
 .activeContainer { 
   align-items: center;
-  height: 30em;
+  height: 22em;
   padding: 14px 0;
   overflow-x: auto;
   column-fill: auto;
@@ -45,6 +45,10 @@
 
 .textContainer h1 {
   margin-bottom: 0px;
+}
+.textContainer h1.info{
+  white-space: pre-wrap;
+width: 25em;
 }
 .textContainer h1.header {
   font-size: 24px;

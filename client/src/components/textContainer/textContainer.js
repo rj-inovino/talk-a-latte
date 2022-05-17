@@ -14,6 +14,7 @@ const TextContainer = ({ users,room }) => (
       users
         ? (
           <div>
+            <h1 className='info'>Anyone with the same table name will be able to talk to each other.</h1><br/>
             <h1>People currently chatting:</h1>
             <div className="activeContainer">
               <h2>
