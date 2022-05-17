@@ -9,7 +9,7 @@ import Input from '../input/input';
 
 import './chat.css';
 
-const ENDPOINT = 'http://localhost:5000';
+const ENDPOINT = 'https://talkalatte-server.herokuapp.com/';
 
 let socket;
 
